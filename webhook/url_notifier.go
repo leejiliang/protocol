@@ -39,7 +39,7 @@ type URLNotifierParams struct {
 	APISecret string
 }
 
-const defaultQueueSize = 100
+const defaultQueueSize = 1000
 
 // URLNotifier is a QueuedNotifier that sends a POST request to a Webhook URL.
 // It will retry on failure, and will drop events if notification fall too far behind
