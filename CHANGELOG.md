@@ -1,5 +1,11 @@
 # github.com/livekit/protocol
 
+## 1.26.1
+
+### Patch Changes
+
+- Type safe IP checks for SIP Trunks. - [#857](https://github.com/livekit/protocol/pull/857) ([@dennwc](https://github.com/dennwc))
+
 ## 1.26.0
 
 ### Minor Changes
